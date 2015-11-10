@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.5" provider-name="AddonScriptorDE">
+<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.6" provider-name="AddonScriptorDE">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
