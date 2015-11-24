@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.hoerbibel" name="Hörbibel" version="0.0.2" provider-name="stemaj">
+<addon id="plugin.audio.hoerbibel" name="Hörbibel" version="0.0.3" provider-name="stemaj">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -15,7 +15,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.7" provider-name="AddonScriptorDE">
+<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.8" provider-name="AddonScriptorDE">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
