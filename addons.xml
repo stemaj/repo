@@ -15,7 +15,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.8" provider-name="AddonScriptorDE">
+<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.9" provider-name="AddonScriptorDE">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -37,7 +37,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.landschleicher" name="Landschleicher" version="0.1.4" provider-name="stemaj">
+<addon id="plugin.video.landschleicher" name="Landschleicher" version="0.1.5" provider-name="stemaj">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
