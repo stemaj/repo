@@ -15,23 +15,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.filmstarts_de" name="FilmStarts.de" version="2.1.5.11" provider-name="stemaj">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">Deutsche Trailer</summary>
-        <summary lang="en">German trailers</summary>
-        <language>de</language>
-        <description lang="de">Deutsche Trailer</description>
-        <description lang="en">German trailers</description>
-    </extension>
-</addon>
-
 <addon id="plugin.video.landschleicher" name="Landschleicher" version="0.1.6" provider-name="stemaj">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -43,6 +26,23 @@
         <platform>all</platform>
         <summary lang="de">1000 Landschleicher - das Archiv</summary>
         <description lang="de">Seit dem 28. März 1993 besucht der Landschleicher jedes Wochenende einen Brandenburger Ort mit einer Einwohnerzahl unter 2.000. Zum 20. Jubiläum öffnete der Landschleicher sein Archiv und ermöglicht einen besonderen Blick auf die Geschichte des Landes Brandenburg. Die Landschleicher-Videos aus mittlerweile 21 Jahren erzählen die kleinen und großen Geschichten der kleinsten Orte des Landes und ihrer Bewohner.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.neustarts" name="Neustarts" version="3.0.0" provider-name="stemaj">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Deutsche Trailer von filmstarts.de</summary>
+        <summary lang="en">German trailers from filmstarts.de</summary>
+        <language>de</language>
+        <description lang="de">Deutsche Trailer von filmstarts.de</description>
+        <description lang="en">German trailers from filmstarts.de</description>
     </extension>
 </addon>
 
