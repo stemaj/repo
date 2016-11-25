@@ -95,6 +95,21 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.wettervorhersage" name="Wettervorhersage" version="0.0.1" provider-name="stemaj">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de">Wettervorhersage Deutschland</summary>
+		<language>de</language>
+		<description lang="de">Videos von verschiedenen Quellen aktueller Wettervohersagen</description>
+	</extension>
+</addon>
+
 <addon id="repository.stemaj" name="Stemajs Repo" version="0.0.2" provider-name="stemaj">
 	<extension point="xbmc.addon.repository" name="stemaj">
 		<info compressed="true">https://raw.githubusercontent.com/stemaj/repo/master/addons.xml</info>
