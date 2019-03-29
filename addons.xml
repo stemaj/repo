@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.hoerbibel" name="Hörbibel" version="0.1.3" provider-name="stemaj">
+<addon id="plugin.audio.hoerbibel" name="HÃ¶rbibel" version="0.1.3" provider-name="stemaj">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -9,7 +9,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="de">Hörbibel von bibelserver.com</summary>
+        <summary lang="de">HÃ¶rbibel von bibelserver.com</summary>
         <language>de</language>
     </extension>
 </addon>
@@ -39,7 +39,7 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="de">1000 Landschleicher - das Archiv</summary>
-        <description lang="de">Seit dem 28. März 1993 besucht der Landschleicher jedes Wochenende einen Brandenburger Ort mit einer Einwohnerzahl unter 2.000. Zum 20. Jubiläum öffnete der Landschleicher sein Archiv und ermöglicht einen besonderen Blick auf die Geschichte des Landes Brandenburg. Die Landschleicher-Videos aus mittlerweile 21 Jahren erzählen die kleinen und großen Geschichten der kleinsten Orte des Landes und ihrer Bewohner.</description>
+        <description lang="de">Seit dem 28. MÃ¤rz 1993 besucht der Landschleicher jedes Wochenende einen Brandenburger Ort mit einer Einwohnerzahl unter 2.000. Zum 20. JubilÃ¤um Ã¶ffnete der Landschleicher sein Archiv und ermÃ¶glicht einen besonderen Blick auf die Geschichte des Landes Brandenburg. Die Landschleicher-Videos aus mittlerweile 21 Jahren erzÃ¤hlen die kleinen und groÃŸen Geschichten der kleinsten Orte des Landes und ihrer Bewohner.</description>
     </extension>
 </addon>
 
@@ -56,7 +56,7 @@
         <summary lang="en">A MediathekView client</summary>
         <description lang="en">MediathekViewWeb is a simple browser interface for accessing the movie list of the MediathekView project.</description>
         <summary lang="de">Ein MediathekView Client</summary>
-		<description lang="de">MediathekViewWeb ist eine einfache Browser-Oberfläche für den Zugriff auf die Filmliste des MediathekView Projekts.</description>
+		<description lang="de">MediathekViewWeb ist eine einfache Browser-OberflÃ¤che fÃ¼r den Zugriff auf die Filmliste des MediathekView Projekts.</description>
         <license>GPL 2.0</license>
     </extension>
 </addon>
@@ -80,20 +80,30 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.neustarts" name="Neustarts" version="3.1.5" provider-name="stemaj">
+<addon id="plugin.video.neustarts" name="Neustarts" version="4.0.1" provider-name="stemaj">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Trailer zu den aktuellen Neustarts in Kino/DVD/Streaming</summary>
+        <description lang="en_GB"></description>
+        <language></language>
         <platform>all</platform>
-        <summary lang="de">Deutsche Trailer von filmstarts.de</summary>
-        <summary lang="en">German trailers from filmstarts.de</summary>
-        <language>de</language>
-        <description lang="de">Deutsche Trailer von filmstarts.de</description>
-        <description lang="en">German trailers from filmstarts.de</description>
+        <license>UNLICENSED</license>
+        <forum></forum>
+        <website></website>
+        <email>steffen.majaura@gmail.com</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
@@ -106,9 +116,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="de">Gute-Nacht-Geschichten für Klein und Groß</summary>
+        <summary lang="de">Gute-Nacht-Geschichten fÃ¼r Klein und GroÃŸ</summary>
         <language>de</language>
-        <description lang="de">SchlafSchaf.TV ist eine Gute-Nacht-Geschichte für Groß und Klein. Biblische Geschichten werden so lebendig und unterhaltsam vermittelt, dass auch die Kleineren sofort verstehen, worum es geht. Dafür sorgt nicht nur das wertvolle pädagogische Konzept, sondern auch die drei Hauptfiguren: SchlafSchaf, Esel und Schwein.</description>
+        <description lang="de">SchlafSchaf.TV ist eine Gute-Nacht-Geschichte fÃ¼r GroÃŸ und Klein. Biblische Geschichten werden so lebendig und unterhaltsam vermittelt, dass auch die Kleineren sofort verstehen, worum es geht. DafÃ¼r sorgt nicht nur das wertvolle pÃ¤dagogische Konzept, sondern auch die drei Hauptfiguren: SchlafSchaf, Esel und Schwein.</description>
     </extension>
 </addon>
 
